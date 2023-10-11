@@ -1,5 +1,5 @@
 import React from 'react';
-import { AlertDialog, Button, Center } from 'native-base';
+import { AlertDialog, Button, Center } from '@gluestack-ui/themed-native-base';
 import type { TouchableOpacity } from 'react-native';
 
 export const Example = () => {
