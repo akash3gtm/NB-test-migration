@@ -32,7 +32,7 @@ export function MasonLayout({
           }}
           _vStack={{ space: 4 }}
         >
-          <StoryBook
+          {/* <StoryBook
             navigation={navigation}
             name="Actionsheet"
             minH={32}
@@ -43,7 +43,7 @@ export function MasonLayout({
             _heading={{
               color: "amber.100",
             }}
-          />
+          /> */}
           <StoryBook
             navigation={navigation}
             name="Alert"
@@ -145,7 +145,7 @@ export function MasonLayout({
             }}
           />
 
-          <StoryBook
+          {/* <StoryBook
             navigation={navigation}
             name="Column"
             minH={32}
@@ -156,7 +156,7 @@ export function MasonLayout({
             _heading={{
               color: "red.100",
             }}
-          />
+          /> */}
           <StoryBook
             navigation={navigation}
             name="Divider"
@@ -315,7 +315,7 @@ export function MasonLayout({
               color: "orange.100",
             }}
           />
-          <StoryBook
+          {/* <StoryBook
             navigation={navigation}
             name="Menu"
             minH={64}
@@ -326,7 +326,7 @@ export function MasonLayout({
             _heading={{
               color: "yellow.100",
             }}
-          />
+          /> */}
 
           <StoryBook
             navigation={navigation}
@@ -412,7 +412,7 @@ export function MasonLayout({
               color: "yellow.100",
             }}
           />
-          <StoryBook
+          {/* <StoryBook
             navigation={navigation}
             name="Select"
             minH={32}
@@ -423,8 +423,8 @@ export function MasonLayout({
             _heading={{
               color: "red.100",
             }}
-          />
-          <StoryBook
+          /> */}
+          {/* <StoryBook
             navigation={navigation}
             name="Skeleton"
             minH={48}
@@ -435,7 +435,7 @@ export function MasonLayout({
             _heading={{
               color: "cyan.100",
             }}
-          />
+          /> */}
           <StoryBook
             navigation={navigation}
             name="Slider"
@@ -547,7 +547,7 @@ export function MasonLayout({
               color: "fuchsia.100",
             }}
           />
-          <StoryBook
+          {/* <StoryBook
             navigation={navigation}
             name="Transitions"
             minH={48}
@@ -558,7 +558,7 @@ export function MasonLayout({
             _heading={{
               color: "yellow.100",
             }}
-          />
+          /> */}
           <StoryBook
             navigation={navigation}
             name="View"
