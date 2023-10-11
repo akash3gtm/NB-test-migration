@@ -8,7 +8,7 @@ import {
   IconButton,
   Box,
   CloseIcon,
-} from 'native-base';
+} from '@gluestack-ui/themed-native-base';
 
 export function Example() {
   return (
@@ -31,7 +31,7 @@ export function Example() {
               <IconButton
                 variant="unstyled"
                 _focus={{ borderWidth: 0 }}
-                icon={<CloseIcon size="3" />}
+                icon={CloseIcon}
                 _icon={{ color: 'coolGray.600' }}
               />
             </HStack>

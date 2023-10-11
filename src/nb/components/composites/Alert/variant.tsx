@@ -6,8 +6,7 @@ import {
   VStack,
   Text,
   Divider,
-  ScrollView,
-} from 'native-base';
+} from '@gluestack-ui/themed-native-base';
 
 export function Example() {
   const getTextColor = (
@@ -19,18 +18,13 @@ export function Example() {
       | 'subtle'
       | 'outline-light'
   ) => {
-    switch (variant) {
-      case 'left-accent':
-      case 'top-accent':
-      case 'subtle':
-        return 'coolGray.800';
-      case 'solid':
-        return 'warmGray.50';
-    }
-  };
+    if(variant === 'left-accent' || variant === 'top-accent' || variant === 'subtle')
+      return 'coolGray.800';
+    else
+      return 'warmGray.50';
+    };
 
   return (
-    <ScrollView mt={5}>
       <Stack
         space={3}
         maxW="400"
@@ -79,6 +73,5 @@ export function Example() {
           );
         })}
       </Stack>
-    </ScrollView>
   );
 }
