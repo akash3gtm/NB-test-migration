@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Button, VStack, Box } from 'native-base';
+import { Badge, Button, VStack, Box } from '@gluestack-ui/themed-native-base';
 
 export function Example() {
   return (
@@ -9,8 +9,8 @@ export function Example() {
           // bg="red.400"
           colorScheme="danger"
           rounded="full"
-          mb={-4}
-          mr={-4}
+          top={4}
+          left={4}
           zIndex={1}
           variant="solid"
           alignSelf="flex-end"

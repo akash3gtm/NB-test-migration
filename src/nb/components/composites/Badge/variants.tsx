@@ -1,6 +1,5 @@
-//@ts-nocheck
 import React from 'react';
-import { Badge, HStack, VStack, Box } from 'native-base';
+import { Badge, HStack, VStack, Box } from '@gluestack-ui/themed-native-base';
 
 export function Example() {
   return (
