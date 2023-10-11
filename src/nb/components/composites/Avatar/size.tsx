@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, VStack, Center } from 'native-base';
+import { Avatar, VStack, Center } from '@gluestack-ui/themed-native-base';
 
 export const Example = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Avatar, HStack } from 'native-base';
+import { Avatar, HStack } from '@gluestack-ui/themed-native-base';
 
 export const Example = () => {
   return (
@@ -9,13 +9,13 @@ export const Example = () => {
         mr="1"
         source={{ uri: 'https://bit.ly/broken-link' }}
       >
-        RS
+        R S
       </Avatar>
       <Avatar bg="amber.500" source={{ uri: 'https://bit.ly/broken-link' }}>
-        MR
+        M R
       </Avatar>
       <Avatar bg="lightBlue.400" source={{ uri: 'https://bit.ly/broken-link' }}>
-        --
+        - -
       </Avatar>
     </HStack>
   );
