@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Text, Image, Heading, Stack } from 'native-base';
+import { Box, Text, Image, Heading, Stack } from '@gluestack-ui/themed-native-base';
 export const Example = () => {
   return (
     <Box
@@ -12,13 +12,13 @@ export const Example = () => {
       overflow="hidden"
       w="100%"
     >
-      <Box width={{ md: 24 }} height={{ base: 32, md: '100%' }}>
+      <Box height={{ base: '$32', md: '100%' }} width={{ md: '$24' }}>
         <Image
           source={{
             uri:
               'https://static.nike.com/a/images/f_auto/dpr_2.0/w_1328,c_limit/b56d1e9b-3861-4c89-995d-b8fb6240a762/nike-just-do-it.jpg',
           }}
-          height={32}
+          height={'$32'}
           alt="Shoes"
         />
       </Box>

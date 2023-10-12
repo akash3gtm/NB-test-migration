@@ -8,7 +8,7 @@ import {
   HStack,
   Stack,
   Center,
-} from 'native-base';
+} from '@gluestack-ui/themed-native-base';
 import { Feather, AntDesign } from '@expo/vector-icons';
 
 export const Example = () => {
@@ -20,10 +20,10 @@ export const Example = () => {
       mx={{ base: 'auto', md: 0 }}
     >
       <Image
-        h={64}
+        h='$64'
         // w={200}
         w="100%"
-        rounded="25"
+        rounded={25}
         source={{
           uri:
             'https://image.freepik.com/free-photo/pathway-middle-green-leafed-trees-with-sun-shining-through-branches_181624-4539.jpg',
@@ -33,9 +33,10 @@ export const Example = () => {
 
       <Center position="absolute" height="100%" width="100%">
         <Icon
-          as={<AntDesign name="play" />}
-          color="gray.200"
-          size={12}
+          as={AntDesign}
+          name='play'
+          color="$gray.200"
+          size={48}
           opacity={0.8}
         />
       </Center>
@@ -43,7 +44,7 @@ export const Example = () => {
       <HStack
         position="absolute"
         bottom={4}
-        w={64}
+        w='$64'
         px={4}
         alignItems="center"
         justifyContent="space-between"
@@ -54,7 +55,7 @@ export const Example = () => {
           </Heading>
           <Text color="gray.200">Meghalaya</Text>
         </Stack>
-        <Icon as={<Feather name="more-horizontal" />} color="white" />
+        <Icon as={Feather} name="more-horizontal" color="white" />
       </HStack>
     </Box>
   );

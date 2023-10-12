@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Heading, Image, Text, Stack } from 'native-base';
+import { Box, Heading, Image, Text, Stack } from '@gluestack-ui/themed-native-base';
 export const Example = () => {
   return (
     <Box
@@ -12,8 +12,10 @@ export const Example = () => {
       mx={{ base: 'auto', md: 0 }}
     >
       <Image
-        h={64}
-        roundedTop="25"
+        h='$64'
+        // roundedTop="25"
+        borderTopLeftRadius={25}
+        borderTopRightRadius={25}
         source={{
           uri:
             'https://image.freepik.com/free-photo/silhouette-person-standing-top-hill-beautiful-colorful-sky-morning_181624-24501.jpg',

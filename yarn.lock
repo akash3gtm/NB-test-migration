@@ -2633,10 +2633,10 @@
     "@gluestack-ui/utils" "^0.1.9"
     "@react-native-aria/focus" "^0.2.7"
 
-"@gluestack-ui/themed-native-base@0.1.30-alpha.5":
-  version "0.1.30-alpha.5"
-  resolved "https://registry.yarnpkg.com/@gluestack-ui/themed-native-base/-/themed-native-base-0.1.30-alpha.5.tgz#b1fe991b6e81d64123ed729229d3b0cf473cc9a2"
-  integrity sha512-TtyLWB1fY3a+akI5jRwA9+HXJ6ByelosjwYZlOSp6xcY2h6dlHrdzDJcp6ohE5yOu8vyjtHhLp3GjPJ8moN9Xw==
+"@gluestack-ui/themed-native-base@0.1.31-alpha.2":
+  version "0.1.31-alpha.2"
+  resolved "https://registry.yarnpkg.com/@gluestack-ui/themed-native-base/-/themed-native-base-0.1.31-alpha.2.tgz#53a5e594fbe93d51a0677962b3654994111a1c52"
+  integrity sha512-n0zX8GG4TvfOyUC/frHPl4vX2/E7CwW63jdbN2asAVq2b+RGRwd861NmUAjfoUi5Ly3Vkc5eD5/+rVLxqG87og==
   dependencies:
     "@babel/preset-env" "^7.22.9"
     "@babel/preset-react" "^7.22.5"
