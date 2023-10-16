@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Stack } from 'native-base';
+import { Button, Stack } from '@gluestack-ui/themed-native-base';
 
 export const Example = () => {
   return (

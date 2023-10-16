@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Stack, Icon } from 'native-base';
+import { Button, Stack, Icon, AddIcon } from '@gluestack-ui/themed-native-base';
 import { Ionicons } from '@expo/vector-icons';
 
 export const Example = () => {
@@ -12,7 +12,7 @@ export const Example = () => {
       </Button>
       <Button
         variant="subtle"
-        endIcon={<Icon as={Ionicons} name="cloud-download-outline" size="sm" />}
+        endIcon={<AddIcon/>}
       >
         Download
       </Button>
