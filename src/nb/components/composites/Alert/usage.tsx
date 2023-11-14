@@ -12,7 +12,7 @@ import {
 export function Example() {
   return (
     <Center>
-      <Alert maxW="400" status="info" colorScheme="info">
+      {/* <Alert maxW="400" status="info" colorScheme="info">
         <VStack space={2} flexShrink={1} w="100%">
           <HStack
             flexShrink={1}
@@ -29,7 +29,7 @@ export function Example() {
             <IconButton
               variant="unstyled"
               _focus={{ borderWidth: 0 }}
-              icon={CloseIcon}
+              icon={<CloseIcon/>}
               _icon={{ color: 'coolGray.600' }}
             />
           </HStack>
@@ -38,7 +38,7 @@ export function Example() {
             ready!
           </Box>
         </VStack>
-      </Alert>
+      </Alert> */}
     </Center>
   );
 }

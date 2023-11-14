@@ -36,7 +36,8 @@ import {
   VStack,
   FlatList,
   useBreakpointValue,
-} from 'native-base';
+} from '@gluestack-ui/themed-native-base';
+
 export const Example = () => {
   const cols = useBreakpointValue({
     base: 3,
@@ -169,8 +170,10 @@ export const Example = () => {
       iconName: 'delete',
     },
   ];
+  const X = icons[0].icon;
   return (
     <Box w="100%">
+      {/* {icons[0].icon} */}
       <FlatList
         data={icons}
         renderItem={({ item }) => (
@@ -183,7 +186,7 @@ export const Example = () => {
             boxSize="76"
             alignItems="center"
           >
-            <Box _text={{ textAlign: 'center' }}>{item.icon}</Box>
+            {/* <Box _text={{ textAlign: 'center' }}>{item.icon}</Box> */}
             <Text textAlign="center">{item.iconName}</Text>
           </VStack>
         )}

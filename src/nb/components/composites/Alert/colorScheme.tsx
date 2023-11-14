@@ -13,7 +13,7 @@ import {
 export function Example() {
   return (
     <Stack space={4} mx={3} w="100%">
-      {['red', 'orange', 'pink'].map((key: any) => (
+      {/* {['red', 'orange', 'pink'].map((key: any) => (
         <Alert w="100%" colorScheme={key} key={key}>
           <VStack space={2} flexShrink={1} w="100%">
             <HStack
@@ -31,7 +31,7 @@ export function Example() {
               <IconButton
                 variant="unstyled"
                 _focus={{ borderWidth: 0 }}
-                icon={CloseIcon}
+                icon={<CloseIcon/>}
                 _icon={{ color: 'coolGray.600' }}
               />
             </HStack>
@@ -40,7 +40,7 @@ export function Example() {
             </Box>
           </VStack>
         </Alert>
-      ))}
+      ))} */}
     </Stack>
   );
 }

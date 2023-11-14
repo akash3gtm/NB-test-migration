@@ -8,7 +8,7 @@ import { Root } from './src/components/RootComponent';
 export default function App() {
   return (
     <NativeBaseProvider theme={BaseTheme} config={config}>
-      <NBGUIProvider colorMode='dark'>
+      <NBGUIProvider config={config} colorMode='dark'>
         <Root />
       </NBGUIProvider>
     </NativeBaseProvider>

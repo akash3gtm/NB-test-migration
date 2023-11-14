@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Heading, Box } from 'native-base';
+import { Divider, Heading, Box } from '@gluestack-ui/themed-native-base';
 
 export const Example = () => {
   return (
@@ -10,8 +10,8 @@ export const Example = () => {
         </Heading>
         <Divider
           my="2"
-          _light={{ bg: 'muted.800' }}
-          _dark={{ bg: 'muted.50' }}
+          _light={{ bg: 'red.800' }}
+          _dark={{ bg: 'blue.50' }}
         />
         <Heading mx="3" alignItems="center" flexDirection="row">
           Firefox

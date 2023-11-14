@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Heading, Center, VStack } from 'native-base';
+import { Icon, Heading, Center, VStack } from '@gluestack-ui/themed-native-base';
 import { Ionicons } from '@expo/vector-icons';
 
 export const Example = () => {

@@ -33,7 +33,7 @@ export function Example() {
         justifyContent="center"
         alignItems="center"
       >
-        {[
+        {/* {[
           'solid',
           'left-accent',
           'top-accent',
@@ -71,7 +71,7 @@ export function Example() {
               <Divider mt="5" mb="2.5" />
             </>
           );
-        })}
+        })} */}
       </Stack>
   );
 }

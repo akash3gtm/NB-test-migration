@@ -34,7 +34,7 @@ export function Example() {
               <IconButton
                 variant="unstyled"
                 _focus={{ borderWidth: 0 }}
-                icon={CloseIcon}
+                icon={<CloseIcon/>}
                 _icon={{ color: 'coolGray.600' }}
               />
             </HStack>

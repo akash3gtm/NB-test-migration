@@ -30,7 +30,7 @@ export function Example() {
   ];
   return (
     <Stack space={3} w="100%" maxW="400">
-      {statusArray.map((status) => {
+      {/* {statusArray.map((status) => {
         return (
           <Alert w="100%" status={status.status}>
             <VStack space={2} flexShrink={1} w="100%">
@@ -44,14 +44,14 @@ export function Example() {
                 <IconButton
                   variant="unstyled"
                   _focus={{ borderWidth: 0 }}
-                  icon={CloseIcon}
+                  icon={<CloseIcon/>}
                   _icon={{ color: 'coolGray.600' }}
                 />
               </HStack>
             </VStack>
           </Alert>
         );
-      })}
+      })} */}
     </Stack>
   );
 }

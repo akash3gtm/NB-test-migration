@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, HamburgerIcon, Box, Pressable } from 'native-base';
+import { Menu, HamburgerIcon, Box, Pressable } from '@gluestack-ui/themed-native-base';
 
 export function Example() {
   return (

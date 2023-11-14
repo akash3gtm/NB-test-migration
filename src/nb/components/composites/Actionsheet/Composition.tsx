@@ -6,7 +6,7 @@ import {
   Box,
   Text,
   Center,
-} from 'native-base';
+} from '@gluestack-ui/themed-native-base';
 
 export function Example() {
   const { isOpen, onOpen, onClose } = useDisclose();
